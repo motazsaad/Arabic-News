@@ -1,0 +1,2773 @@
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/4f55359835ec91b6249a20330071d36b since '--resume' was not passed to initial.py or this crawler was daemonized.
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/4f55359835ec91b6249a20330071d36b since '--resume' was not passed to initial.py or this crawler was daemonized.
+[__main__:197|WARNING] Crawler SitemapCrawler not supported by https://technology.aljazeera.net/. Trying to fall back.
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/04b960fbf2cb5d55a0e18ff4669401bf since '--resume' was not passed to initial.py or this crawler was daemonized.
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/95668a2b48069c84242b7583c7649b28 since '--resume' was not passed to initial.py or this crawler was daemonized.
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/94722f2ec36f5afbee6b0f93f339cb6a since '--resume' was not passed to initial.py or this crawler was daemonized.
+[newsplease.config:164|INFO] Loading config-file (/home/motaz/news-please-repo/config/config.cfg)
+[__main__:253|INFO] Removed /home/motaz/news-please-repo/.resume_jobdir/f36e25702429f095806cd628adc810c7 since '--resume' was not passed to initial.py or this crawler was daemonized.
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/newsplease/single_crawler.py", line 152, in __init__
+    self.process.start()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/crawler.py", line 293, in start
+    reactor.run(installSignalHandlers=False)  # blocking call
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1267, in run
+    self.mainLoop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 1276, in mainLoop
+    self.runUntilCurrent()
+--- <exception caught here> ---
+  File "/home/motaz/py3env/lib/python3.5/site-packages/twisted/internet/base.py", line 902, in runUntilCurrent
+    call.func(*call.args, **call.kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/utils/reactor.py", line 41, in __call__
+    return self._func(*self._a, **self._kw)
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 122, in _next_request
+    if not self._next_request_from_scheduler(spider):
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/engine.py", line 149, in _next_request_from_scheduler
+    request = slot.scheduler.next_request()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 71, in next_request
+    request = self._dqpop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/core/scheduler.py", line 106, in _dqpop
+    d = self.dqs.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/pqueue.py", line 43, in pop
+    m = q.pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/scrapy/squeues.py", line 19, in pop
+    s = super(SerializableQueue, self).pop()
+  File "/home/motaz/py3env/lib/python3.5/site-packages/queuelib/queue.py", line 162, in pop
+    self.f.seek(-size-self.SIZE_SIZE, os.SEEK_END)
+builtins.OSError: [Errno 22] Invalid argument
+

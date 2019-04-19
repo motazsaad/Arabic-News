@@ -49,43 +49,6 @@
       },
     },
     {
-      # "url": "https://www.dw.com/ar/الرئيسية/أخبار/s-8391",
-      # الرئيسية %D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9
-      "url": "https://www.dw.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/s-8391",
-      "overwrite_heuristics": {
-        # because we do not want to crawl that blog, disable all downloads from
-        # subdomains
-        "is_not_from_subdomain": true
-      },
-    },
-    {
-      # "url": "https://www.dw.com/ar/الرئيسية/سياسة-واقتصاد/s-8392",
-      "url": "https://www.dw.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9-%D9%88%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF/s-8392",
-      "overwrite_heuristics": {
-        # because we do not want to crawl that blog, disable all downloads from
-        # subdomains
-        "is_not_from_subdomain": true
-      },
-    },
-    {
-      # "url": "https://www.dw.com/ar/الرئيسية/علوم-وتكنولوجيا/s-8411",
-      "url": "https://www.dw.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/%D8%B9%D9%84%D9%88%D9%85-%D9%88%D8%AA%D9%83%D9%86%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7/s-8411",
-      "overwrite_heuristics": {
-        # because we do not want to crawl that blog, disable all downloads from
-        # subdomains
-        "is_not_from_subdomain": true
-      },
-    },
-    {
-      # "url": "https://www.dw.com/ar/الرئيسية/عالم-الرياضة/s-8403",
-	  "url": "https://www.dw.com/ar/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D8%A9/s-8403",
-      "overwrite_heuristics": {
-        # because we do not want to crawl that blog, disable all downloads from
-        # subdomains
-        "is_not_from_subdomain": true
-      },
-    },
-    {
       "url": "https://arabic.cnn.com/",
       "overwrite_heuristics": {
         # because we do not want to crawl that blog, disable all downloads from

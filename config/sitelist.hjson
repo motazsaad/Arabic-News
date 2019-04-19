@@ -1,0 +1,24 @@
+# This is a HJSON-File, so comments and so on can be used! See https://hjson.org/
+# Furthermore this is first of all the actual config file, but as default just filled with examples.
+{
+  # Every URL has to be in an array-object in "base_urls".
+  # The same URL in combination with the same crawler may only appear once in this array.
+  "base_urls" : [
+    {
+      "url": "http://www.bbc.com/arabic/",
+      "overwrite_heuristics": {
+        # because we do not want to crawl that blog, disable all downloads from
+        # subdomains
+        "is_not_from_subdomain": true
+      },	
+    },
+    {
+      "url": "http://arabic.euronews.com/",
+      "overwrite_heuristics": {
+        # because we do not want to crawl that blog, disable all downloads from
+        # subdomains
+        "is_not_from_subdomain": true
+      },
+    }
+  ]
+}

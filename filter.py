@@ -11,12 +11,12 @@ if __name__ == '__main__':
     args = parser.parse_args()
     lang_count = {}
     directory = args.indir
-    json_files = glob.glob(directory + '*.json.gz')
+    json_files = glob.glob(directory + '*.json')
     removed_files  = 0
     print('json.gz files', len(json_files))
     pbar = tqdm(total=len(json_files))
     for json_file in json_files:
-    	text_file = json_file.replace('.json.gz', '.txt.gz')
+    	text_file = json_file.replace('.json', '.txt')
     	if not os.path.exists(text_file):
     		os.remove(json_file)
     		removed_files += 1 

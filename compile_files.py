@@ -16,12 +16,12 @@ parser.add_argument('-o', '--outfile',
 if __name__ == '__main__':
     args = parser.parse_args()
     directory = args.indir
-    text_files = glob.glob(directory + '*.txt.gz')
+    text_files = glob.glob(directory + '*.txt')
     print('# of files', len(text_files))
     corpus = ''
     pbar = tqdm(total=len(text_files))
     for text_file in text_files:
-    	with gzip.open(text_file, mode='rt', encoding='utf-8') as f:
+    	with open(text_file, mode='r', encoding='utf-8') as f:
     		corpus += f.read() + '\n'
     	pbar.update()
     

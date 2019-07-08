@@ -22,6 +22,7 @@ Crawl Date: 19-04-2019
 # Corpus information 
 | Corpus  | Size | number of words |
 | ------- |:----:| ---------------:|
+| Headlines | 54M | 487674 |
 | JSC | 395M | 1525372 |
 | RT | 713M |  3411451 |
 | CNN | 94M | 317260 |

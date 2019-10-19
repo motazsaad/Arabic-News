@@ -10,7 +10,10 @@ Arabic News headlines for NLP. These headlines are collected from:
 * RT Arabic
 
 These news are collected by news-please python library. This tool store collected articles in JSON format, so one can split article's information easily (title, date, text, images, ...etc.). 
+
 Crawl Date: 19-04-2019
+
+
 
 ## Files
 * aljazeera.net_20190419_titles.txt        
@@ -19,6 +22,8 @@ Crawl Date: 19-04-2019
 * arabic.euronews.com_20190409_titles.txt  
 * bbc.com_20190409_titles_small.txt
 * bbc.com_20190409_titles.txt  
+
+Tables below show the most and the least common words in each corpus, and the vocabulary size and the number of terms in each corpus. Tables show article dates distribution.
 
 ---
 ## Headlines Date Distribution 
